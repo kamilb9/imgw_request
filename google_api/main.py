@@ -24,5 +24,6 @@ print(body)
 distance = body['rows'][0]['elements'][0]['distance']
 duration = body['rows'][0]['elements'][0]['duration']
 
+
 cost = prize*distance['value']/1000*consumption/100
 print(f'Koszt przejazdu wynosi: {cost}')
